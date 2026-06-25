@@ -1,38 +1,39 @@
 # Bar-Parental-Control-Skipper For Mac OS
 
 
-BarTube es un cliente web para macOS pensado para vivir solo en la barra superior. No tiene ventana principal: al tocar el icono aparece un panel compacto donde pegas una URL y la página se carga dentro del propio desplegable.
+BarPCskipper is a web client for macOS designed to live exclusively in the menu bar. It has no main window: when you click the icon, a compact panel appears where you can paste a URL, and the page is loaded directly inside the dropdown.
 
-## Qué hace
+## What it does
 
-- Vive en la barra de menú y no aparece como app clásica en el Dock.
-- Carga cualquier URL dentro del panel.
-- Ajusta automáticamente muchas webs para que encajen mejor en la mini pantalla.
-- Permite excluir dominios concretos de ese reescalado.
-- Incluye YouTube en la lista de exclusión por defecto para evitar problemas con su interfaz.
+* Lives in the menu bar and does not appear as a traditional app in the Dock.
+* Loads any URL directly inside the panel.
+* Automatically adjusts many websites to fit better within the mini display.
+* Allows specific domains to be excluded from this automatic scaling.
+* Includes YouTube in the exclusion list by default to avoid interface issues.
 
-## Cómo se usa
+## How to use it
 
-1. Pulsa el icono de BarTube en la barra superior.
-2. Pega una URL en el campo de entrada.
-3. Pulsa `Cargar aquí` o Enter.
-4. La página aparece en el display 16:9 del panel.
+1. Click the BarPCskipper icon in the menu bar.
+2. Paste a URL into the input field.
+3. Click `Load Here` or press Enter.
+4. The page will appear in the panel's 16:9 display.
 
-También puedes usar `Pegar` para traer directamente la URL del portapapeles.
+You can also use `Paste` to instantly load the URL currently stored in your clipboard.
 
-## Reescalado y excepciones
+## Scaling and exceptions
 
-BarTube intenta encajar muchas webs dentro del display para que no se desborden horizontalmente.
+BarPCskipper tries to fit many websites within the display so they do not overflow horizontally.
 
-Abajo del panel hay una sección llamada `Sin reescalado`:
+At the bottom of the panel, there is a section called `No Scaling`:
 
-- Muestra los dominios que se cargan sin tocar su tamaño.
-- YouTube ya viene incluido.
-- Puedes añadir un dominio escribiéndolo en el campo y pulsando `Añadir`.
-- Puedes añadir el dominio de la página actual con `Añadir actual`.
-- Cada dominio puede quitarse con la `x`.
+* It shows the domains that are loaded without any resizing.
+* YouTube is included by default.
+* You can add a domain by typing it into the field and clicking `Add`.
+* You can add the current page's domain by clicking `Add Current`.
+* Each domain can be removed by clicking the `x`.
 
-Si una web se ve rara con el encaje automático, añádela a esa lista y se mostrará tal cual.
+If a website looks odd when automatically scaled, add it to this list and it will be displayed at its original size.
+
 
 For running the app just drop the .app that is in the .dmg in your applications folder and run tis command in your terminal: 
 xattr -d com.apple.quarantine /Applications/BarPCskiper.app 
