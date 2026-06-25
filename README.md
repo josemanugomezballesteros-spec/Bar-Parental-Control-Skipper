@@ -1,5 +1,6 @@
 # Bar-Parental-Control-Skipper For Mac OS
 
+Apps in the toolbar are not affected by Apple's macOS parental controls, so I created a web client that runs in your tool bar and that you can use as much as you want, whenever you want.
 
 BarPCskipper is a web client for macOS designed to live exclusively in the menu bar. It has no main window: when you click the icon, a compact panel appears where you can paste a URL, and the page is loaded directly inside the dropdown.
 
