@@ -1,3 +1,5 @@
+# WARNING It now Does not work in macOS Tahoe
+
 # Bar-Parental-Control-Skipper For Mac OS
 
 Apps in the toolbar are not affected by Apple's macOS parental controls, so I created a web client that runs in your tool bar and that you can use as much as you want, whenever you want.
