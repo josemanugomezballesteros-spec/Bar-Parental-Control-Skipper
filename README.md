@@ -38,3 +38,5 @@ If a website looks odd when automatically scaled, add it to this list and it wil
 
 For running the app just drop the .app that is in the .dmg in your applications folder and run tis command in your terminal: 
 xattr -d com.apple.quarantine /Applications/BarPCskiper.app 
+
+(change the "/Applications/BarPCskiper.app" to the exact route of the app, you can do that by pasting this command "xattr -d com.apple.quarantine " dragging the BarPCskipper app and pressing intro)
